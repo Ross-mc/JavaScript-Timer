@@ -1,0 +1,37 @@
+<DOCTYPE! html>
+<html lang="en">
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="timerStyle.css">   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+        <body>
+  <h1 class="title">Javascript Timer</h1>
+  <div class="timer" id="timer">
+    <div class="display" id="display">
+     
+      <input type="text" class="timeDisplay" id="hr" value = "" disabled>
+      <input type="text" class="timeDisplay" id="colon" value = ":" disabled>
+      <input type="text" class="timeDisplay"  id="min" value = "" disabled>
+      <input type="text" class="timeDisplay" id="colon" value = ":" disabled>
+      <input type="text" class="timeDisplay"  id="sec" value = "" disabled>
+    </div>
+    <div class="inputs" id="buttons">
+      <button type="button" class="timeButton" id="plusHr" value=3600000>+1 Hour</button>
+      <button type="button" class="timeButton" id="minusHr" value="-3600000">-1 Hour</button>
+       <button type="button" class="timeButton" id="plusMin" value="60000">+ 1 Minute</button>
+      <button type="button" class="timeButton" id="minusMin" value="-60000">-1 Minute</button>
+             <button type="button" class="timeButton" id="plusSec" value="1000">+1 Second</button>
+                       
+            <button type="button" class="timeButton" id="minusSec" value="-1000">-1 Second</button>
+
+      <button type="button" class="startButton" id="start" value="start">Start</button>
+      <button type="button" class="resetButton" id="reset" value="reset">Reset</button>
+      <button type="button" class="pauseButton" id="pause" value="pause">Pause</button>
+      
+      
+      
+  </div>
+</body>
+<script src="timerScript.js"></script>
+  </html>
